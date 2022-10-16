@@ -21,7 +21,7 @@ public class Driver {
 		int noOfTargets = sc.nextInt();
 		Service service = new Service();
 		for(int i = 0; i<noOfTargets; i++) {
-			System.out.println("Enter the value of target");
+			System.out.println("Enter the value of target " + i);
 			int targetValue = sc.nextInt();
 			service.targetAchievement(transactionArray, size, targetValue);
 		}
