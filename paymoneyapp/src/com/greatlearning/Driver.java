@@ -16,9 +16,6 @@ public class Driver {
 		for(int i = 0; i<size; i++) {
 			transactionArray[i]=sc.nextInt();
 		}
-		
-		Sort sort = new Sort();
-		sort.bubbleSort(transactionArray, size);
 
 		System.out.println("Enter the total no of targets that needs to be achieved");
 		int noOfTargets = sc.nextInt();
